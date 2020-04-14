@@ -1,0 +1,68 @@
+
+body{  
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #33337e;
+/*     
+    background-color: rgb(114, 188, 248); */
+   
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+a{ 
+    text-decoration: unset;
+    
+}
+
+a:hover{
+    background-color: #33337e;
+    color: white;
+
+}
+h1{   
+    text-align: center; 
+}
+#conteudo{
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(210, 234, 255);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+#imgfotoLeslie{
+    width: 100%;
+    height: 55vh;
+    margin-bottom: 30px;
+}
+
+#sobreMim{
+    margin-top: 20px;
+    /* display: flex; */
+    padding: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    text-align: center;
+}
+#descripPessoal{
+    /* font-family:  sans-serif; */
+    letter-spacing: .1rem;
+    line-height: 3rem;
+    text-align: justify;
+    margin-left: 35px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#formacao{
+    letter-spacing: .1rem;
+    line-height: 2rem;
+    text-align: justify;
+    margin-left: 65px;
+    margin-right: 10px;
+}
